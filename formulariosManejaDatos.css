@@ -1,0 +1,145 @@
+#formularioManejaDatosBD {
+    width: 80%;
+    height: auto;
+    
+    /*La primera unidad se aplica a los lados superior e inferior y la segunda a izquierda y derecha*/
+    margin: 20px auto;
+    padding: 2rem;
+    
+    background-color: #1e2761;
+    border: 4px solid white;
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+#formularioManejaDatosBD table {
+    width: 100%;
+    
+    margin-top: 0.5%;
+
+    background-color: #ffccbc;
+}
+
+
+#formularioManejaDatosBD h2 {
+    margin-top: 0px;
+    color:#b22222;
+}
+
+
+#formularioManejaDatosBD th, #formularioManejaDatosBD td {
+    padding: 0.5rem;
+    border: none;
+}
+
+
+#formularioManejaDatosBD th {
+    background-color: #000000; 
+    color: #FFD700;
+    text-align: center;
+    min-width: 30%;
+    width: 30%;
+}
+
+
+#formularioManejaDatosBD td {
+    background-color: #ffccbc; 
+    width: 50%;
+    max-width: 35%;
+}
+
+
+#formularioManejaDatosBD input {
+    margin: 1%;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+#formularioManejaDatosBD input[type="file"] {
+    font-size: 1.3rem;
+}
+
+
+#formularioManejaDatosBD button[type="submit"] {
+    padding: 0.5rem; 
+    
+    border-radius: 0.5rem;
+    
+    background-color: purple;
+    color: #FFD700; 
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+
+#formularioManejaDatosBD button[type="submit"]:hover {
+    background-color: #b22222; 
+}
+
+
+/*Obtenido de herramientas del desarrollador:*/
+input[type="file" i] {
+    color:red;
+    font-weight: bold;
+}
+
+
+table tr * {
+    padding: 5%;
+}
+
+
+.propiedades td {
+    overflow: auto;
+}
+
+
+textarea {
+    align-content: center;
+    text-align: center;
+}
+
+
+select {
+    width: 15vw;
+}
+
+
+input {
+    text-align: center;
+}
+
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 1em;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial';
+    text-align: center;
+    
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+form p {
+    display: none;
+}
+
+
+td > p {
+    display: block;
+}
+
+
+.error {
+    font-weight: bold;
+    color: red;
+}

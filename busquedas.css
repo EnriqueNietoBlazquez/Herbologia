@@ -1,0 +1,95 @@
+article form {
+    /*Odio tener que usar medidas en pixeles pero debo reconocer que queda más elegante*/
+    width: 320px;
+    height: 305px;
+
+    margin: auto;
+    padding: 1em;
+
+    background: #1e2761;
+    border-radius: 10px;
+    border: 2px solid #ffd700;
+    
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+tr th:nth-last-child(-n+2){
+    background-color: black;
+}
+
+
+table form {
+    width: auto;
+    height: auto;
+}
+
+
+article form h2 {
+    margin-bottom: 1em;
+
+    color: #ffd700;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+
+article form input[type="text"] {
+    width: calc(100% - 22px);
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 1em;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial';
+    text-align: center;
+    
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+article form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: #b22222;
+    color: white;
+    font-family: 'Arial';
+    
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+article form button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
+article > h2 {
+    margin-top: 7%;
+}
+
+
+.consultaSQL {
+    max-width: 80vw;
+}
+
+
+.consultaSQL td:nth-child(2), .consultaSQL th:nth-child(2) {
+    padding: 0;
+    max-width: 10vw;
+}
+
+
+.consultaSQL td:nth-child(3), .consultaSQL th:nth-child(3) {
+    padding: 20px;
+}
+
+
+.consultaSQL td:nth-child(8), .consultaSQL th:nth-child(8) {
+    padding: 0;
+    max-width: 10vw;
+}

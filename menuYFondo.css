@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial';
+    
+    margin: 0px;
+    
+    /*Línea consultada a Copilot*/
+    background: radial-gradient(circle, #1abc9c, #16a085, #27ae60, #2ecc71, #3498db);
+}
+
+
+header h1, footer {
+    text-align: center;
+    background-color: #34495e;
+    color: #ffffff;
+    
+    padding: 20px 0;
+    margin: 0;
+
+    /*Línea consultada a Copilot*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+nav {
+    text-align: center;
+
+    /*Líneas consultada a Copilot*/
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    padding: 10px 0;
+}
+
+
+#menu {
+    padding: 0;
+    margin: 0;
+    
+    list-style: none;
+    
+    display: flex;
+
+    /*Buscada en Google, las otras o dan mucho espacio, o muy poco*/
+    justify-content: space-evenly;
+}
+
+
+.categoria {
+    position: relative;
+    margin: 0 15px;
+}
+
+
+form, a, button {
+    display: block;
+    text-decoration: none;
+    
+    color: #fff;
+    font-family: 'Arial';
+
+    padding: 15px 20px;
+    
+    transition: background 0.3s, transform 0.3s;
+
+    border: none;
+
+    font-size: 1rem;
+}
+
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    list-style: none;
+    
+    /*Líneas consultada a Copilot*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.categoria:hover .submenu {
+    display: block;
+}
+
+
+.categoria:nth-child(1) * { 
+    background-color: #e74c3c; 
+}
+
+.categoria:nth-child(2) * { 
+    background-color: #f39c12; 
+}
+
+.categoria:nth-child(3) * { 
+    background-color: #2ecc71; 
+}
+
+.categoria:nth-child(4) * { 
+    background-color: #3498db; 
+}
+
+.categoria:nth-child(5) * { 
+    background-color: #9b59b6; 
+}
+
+
+.categoria li:hover, .categoria a:hover {
+    /*Color descartado:
+    background-color: #1abc9c;*/
+    
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.categoria a:hover {
+    /*Color descartado:
+    background-color: #1abc9c;*/
+    
+    font-size: 1.3rem;
+}
+
+.categoria li:hover * {
+    /*Color descartado:
+    background-color: #1abc9c;*/
+    
+    background-color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+footer button[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    margin:auto;
+    
+    border-radius: 5px;
+    background-color: #b22222;
+    color: #000000;
+    font: bold 26px 'Arial';
+
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+footer button[type="submit"]:hover {
+    background-color: rgb(37, 79, 204);
+}
+
+

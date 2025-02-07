@@ -1,0 +1,64 @@
+article {
+    font-family: 'Arial';
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+    /*Queda mejor que el flex-wrap y me ahorra el width del h2*/
+    flex-direction: column; 
+    
+    /*No sé por qué pero es más responsivo que el heigh*/
+    min-height: 71vh;
+}
+  
+
+#segundo {
+    margin-top: -10%;
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    color: #8B008B;
+
+    font-size: 40px;
+}
+  
+  
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+table th {
+	background-color: #0B3D91;
+	color: #FFD700;
+    padding: 30px;
+    font-size: 20px;
+}
+  
+
+table td {
+	background-color: #E0E0E0; 
+	border: 1px solid #ccc;
+    padding: 30px;
+}
+  
+
+table img {
+	width: 8vw;
+}
+  
+
+/*Lo suyo sería meter el article dentro de la función y así controlo mejor todo pero no hay tiempo*/
+#SinResultados {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    margin-top: -25%;
+}
